@@ -5,8 +5,8 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-HOST="$1"
-PORT="$2"
+HOST="132.145.25.117"
+PORT="443"
 
 LISTEN_PORT=${LISTEN_PORT:-${PORT}}
 
